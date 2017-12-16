@@ -20,8 +20,14 @@ context('${1}', function () {
 });
 endsnippet
 
-snippet pdit "Peridoct / It" b
+snippet pdit "Peridot / It" b
 it('${1}', function () {
+	${VISUAL}${0}
+});
+endsnippet
+
+snippet pdbefore "Peridot / Before each" b
+beforeEach(function () {
 	${VISUAL}${0}
 });
 endsnippet
