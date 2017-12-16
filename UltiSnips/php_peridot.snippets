@@ -52,5 +52,6 @@ endsnippet
 
 snippet pdthrow "Peridot / Expect to throw" b
 expect(function () {
-})->to->throw(${1:\Exception}::class, ${2:message});
+	${VISUAL}${0}
+})->to->throw(${1:\Exception}::class, ${2});
 endsnippet
