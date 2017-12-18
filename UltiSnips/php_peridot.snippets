@@ -33,27 +33,27 @@ beforeEach(function () {
 endsnippet
 
 snippet pde "Peridot / Expect" b
-expect(${1})->${2};
+expect(${VISUAL}${1})->${2};
 endsnippet
 
 snippet pdtrue "Peridot / Expect to be true" b
-expect(${1})->to->be->true;
+expect(${VISUAL}${1})->to->be->true;
 endsnippet
 
 snippet pdfalse "Peridot / Expect to be false" b
-expect(${1})->to->be->false;
+expect(${VISUAL}${1})->to->be->false;
 endsnippet
 
 snippet pdbe "Peridot / Expect to be a" b
-expect(${1})->to->be->a(${2});
+expect(${VISUAL}${1})->to->be->a(${2});
 endsnippet
 
 snippet pdinstance "Peridot / Expect to be an instance of" b
-expect(${1})->to->be->an->instanceof(${2}::class);
+expect(${VISUAL}${1})->to->be->an->instanceof(${2}::class);
 endsnippet
 
 snippet pdequal "Peridot / Expect to equal" b
-expect(${1})->to->equal(${2});
+expect(${VISUAL}${1})->to->equal(${2});
 endsnippet
 
 snippet pdthrow "Peridot / Expect to throw" b
